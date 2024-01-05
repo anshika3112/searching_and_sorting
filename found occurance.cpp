@@ -10,8 +10,12 @@ int found(int arr[],int n,int k)
     {
       if(arr[mid]==k)
       {
+        // for first
         ans=mid;
         e=mid-1;
+        // for last occurance
+        ans=mid;
+        s=mid+1;
       }
       else if(arr[mid]>k)
         e=mid-1;
