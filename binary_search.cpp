@@ -8,7 +8,7 @@ int binary(int arr[],int n,int k)
   while(s<=e)
     {
       if(arr[mid]==k)
-        return k;
+        return mid;
       else if(arr[mid]>k)
         e=mid-1;
       else
